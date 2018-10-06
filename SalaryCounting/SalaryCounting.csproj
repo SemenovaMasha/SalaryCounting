@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8D5DBB22-3FBC-4A25-A958-1BD69128515B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SalaryCounting</RootNamespace>
+    <AssemblyName>SalaryCounting</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=5.5.13.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <HintPath>..\packages\iTextSharp.5.5.13\lib\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.108.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.108.0\lib\net451\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.108.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.108.0\lib\net451\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.108.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.108.0\lib\net451\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ConnectionClass.cs" />
+    <Compile Include="EditForms\DepartmentForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\DepartmentForm.Designer.cs">
+      <DependentUpon>DepartmentForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\EmployeesPaySheetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\EmployeesPaySheetForm.Designer.cs">
+      <DependentUpon>EmployeesPaySheetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\PaySheetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\PaySheetForm.Designer.cs">
+      <DependentUpon>PaySheetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\ProductForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\ProductForm.Designer.cs">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\ProductionStandartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\ProductionStandartForm.Designer.cs">
+      <DependentUpon>ProductionStandartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\ProductsSheetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\ProductsSheetForm.Designer.cs">
+      <DependentUpon>ProductsSheetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\ProductStandartsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\ProductStandartsForm.Designer.cs">
+      <DependentUpon>ProductStandartsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\SettlementForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\SettlementForm.Designer.cs">
+      <DependentUpon>SettlementForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EditForms\SettlementSheetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EditForms\SettlementSheetForm.Designer.cs">
+      <DependentUpon>SettlementSheetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EnitiesSets\BaseEntitySet.cs" />
+    <Compile Include="EnitiesSets\DepartmentSet.cs" />
+    <Compile Include="EnitiesSets\EmployeeSet.cs" />
+    <Compile Include="EnitiesSets\PaySheetSet.cs" />
+    <Compile Include="EnitiesSets\ProductSet.cs" />
+    <Compile Include="EnitiesSets\ProductsSheetSet.cs" />
+    <Compile Include="EnitiesSets\ProductStandartSet.cs" />
+    <Compile Include="EnitiesSets\SettlementSet.cs" />
+    <Compile Include="EnitiesSets\SettlementSheetSet.cs" />
+    <Compile Include="Entities\BaseEntity.cs" />
+    <Compile Include="Entities\Department.cs" />
+    <Compile Include="Entities\Employee.cs" />
+    <Compile Include="Entities\PaySheet.cs" />
+    <Compile Include="Entities\Product.cs" />
+    <Compile Include="Entities\ProductionStandart.cs" />
+    <Compile Include="Entities\ProductsSheet.cs" />
+    <Compile Include="Entities\Settlement.cs" />
+    <Compile Include="Entities\SettlementSheet.cs" />
+    <Compile Include="ExceptionsLogger.cs" />
+    <Compile Include="HelpingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HelpingForm.Designer.cs">
+      <DependentUpon>HelpingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListForms\DepartmentListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListForms\DepartmentListForm.Designer.cs">
+      <DependentUpon>DepartmentListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListForms\EmployeeListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListForms\EmployeeListForm.Designer.cs">
+      <DependentUpon>EmployeeListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListForms\PaySheetsListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListForms\PaySheetsListForm.Designer.cs">
+      <DependentUpon>PaySheetsListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListForms\ProductListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListForms\ProductListForm.Designer.cs">
+      <DependentUpon>ProductListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListForms\ProductsSheetListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListForms\ProductsSheetListForm.Designer.cs">
+      <DependentUpon>ProductsSheetListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListForms\ProductStandartsListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListForms\ProductStandartsListForm.Designer.cs">
+      <DependentUpon>ProductStandartsListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListForms\SettlementListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListForms\SettlementListForm.Designer.cs">
+      <DependentUpon>SettlementListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListForms\SettlementSheetListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListForms\SettlementSheetListForm.Designer.cs">
+      <DependentUpon>SettlementSheetListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TextBoxHandles.cs" />
+    <EmbeddedResource Include="EditForms\DepartmentForm.resx">
+      <DependentUpon>DepartmentForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\EmployeesPaySheetForm.resx">
+      <DependentUpon>EmployeesPaySheetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\PaySheetForm.resx">
+      <DependentUpon>PaySheetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\ProductForm.resx">
+      <DependentUpon>ProductForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\ProductionStandartForm.resx">
+      <DependentUpon>ProductionStandartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\ProductsSheetForm.resx">
+      <DependentUpon>ProductsSheetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\ProductStandartsForm.resx">
+      <DependentUpon>ProductStandartsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\SettlementForm.resx">
+      <DependentUpon>SettlementForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EditForms\SettlementSheetForm.resx">
+      <DependentUpon>SettlementSheetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HelpingForm.resx">
+      <DependentUpon>HelpingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListForms\DepartmentListForm.resx">
+      <DependentUpon>DepartmentListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListForms\EmployeeListForm.resx">
+      <DependentUpon>EmployeeListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListForms\PaySheetsListForm.resx">
+      <DependentUpon>PaySheetsListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListForms\ProductListForm.resx">
+      <DependentUpon>ProductListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListForms\ProductsSheetListForm.resx">
+      <DependentUpon>ProductsSheetListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListForms\ProductStandartsListForm.resx">
+      <DependentUpon>ProductStandartsListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListForms\SettlementListForm.resx">
+      <DependentUpon>SettlementListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListForms\SettlementSheetListForm.resx">
+      <DependentUpon>SettlementSheetListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.108.0\build\net451\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.108.0\build\net451\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Данный проект ссылается на пакеты NuGet, отсутствующие на этом компьютере. Используйте восстановление пакетов NuGet, чтобы скачать их.  Дополнительную информацию см. по адресу: http://go.microsoft.com/fwlink/?LinkID=322105. Отсутствует следующий файл: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.108.0\build\net451\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.108.0\build\net451\System.Data.SQLite.Core.targets'))" />
+  </Target>
+</Project>

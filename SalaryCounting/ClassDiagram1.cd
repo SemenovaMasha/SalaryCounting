@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SalaryCounting.ConnectionClass">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAkAAEYAAABEAAAQAwQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ConnectionClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.ExceptionsLogger">
+    <Position X="24.75" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAACAQAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>ExceptionsLogger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.MainForm">
+    <Position X="22" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAFAFAACAIAAEAABCAkAEDAICQQCBAAKAAAAAIAAw=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Program">
+    <Position X="25.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.TextBoxHandles">
+    <Position X="25.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>TextBoxHandles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.DepartmentForm">
+    <Position X="14" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACEAAAAAAACAAAAGAAQCAAAAQAAAgQAAAQA=</HashCode>
+      <FileName>EditForms\DepartmentForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.EmployeeForm">
+    <Position X="15.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAgQCACEQIAEAAAGQQAACCAACAAIAAAEAgCAAAAA=</HashCode>
+      <FileName>EditForms\EmployeeForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.EmployeesPaySheetForm">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAAAEAACCIABAAECCDQACiARACIKAAAAASAAAQAJQ=</HashCode>
+      <FileName>EditForms\EmployeesPaySheetForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.PaySheetForm">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAQBAQAQKGAAAAAMCCKEAACAVACIAAAAAgAgAAACAA=</HashCode>
+      <FileName>EditForms\PaySheetForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.ProductForm">
+    <Position X="19.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAACEAAAAAAACAAEAGAAQAAAAAQAAAgQAAAQA=</HashCode>
+      <FileName>EditForms\ProductForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.ProductionStandartForm">
+    <Position X="12.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQggCEAAAAAAACAHAAGQAQAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>EditForms\ProductionStandartForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.ProductsSheetForm">
+    <Position X="17.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAEAQAAiEEAAAAFCCIEEACARACYAAAAEAAgAARAAA=</HashCode>
+      <FileName>EditForms\ProductsSheetForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.ProductStandartsForm">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIABAASgACEEgAAAECCAEEAGEBgGAAAhBAAAkQAIAAA=</HashCode>
+      <FileName>EditForms\ProductStandartsForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.SettlementForm">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAQAACEQoAAiAQCQAAACAAQAAAAAQAAAgAAAAAA=</HashCode>
+      <FileName>EditForms\SettlementForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EditForms.SettlementSheetForm">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>QABQAAQAAKEAACAAMCCIUAAKARgCICAABAwAgAABCAA=</HashCode>
+      <FileName>EditForms\SettlementSheetForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EnitiesSets.BaseEntitySet">
+    <Position X="9.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAIAABAAAAABAAAAAAAQAAAABAAAAAACAAAA=</HashCode>
+      <FileName>EnitiesSets\BaseEntitySet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EnitiesSets.DepartmentSet">
+    <Position X="5.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAABAAAAAAAAAAAADAAAAAAAAAAA=</HashCode>
+      <FileName>EnitiesSets\DepartmentSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EnitiesSets.EmployeeSet">
+    <Position X="1.25" Y="14" Width="1.5" />
+    <InheritanceLine Type="SalaryCounting.EnitiesSets.BaseEntitySet" FixedFromPoint="true">
+      <Path>
+        <Point X="9.5" Y="15.375" />
+        <Point X="9.26" Y="15.375" />
+        <Point X="9.26" Y="17.268" />
+        <Point X="2" Y="17.268" />
+        <Point X="2" Y="16.261" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAABBAAAAAQAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>EnitiesSets\EmployeeSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EnitiesSets.PaySheetSet">
+    <Position X="7.5" Y="11" Width="1.5" />
+    <InheritanceLine Type="SalaryCounting.EnitiesSets.BaseEntitySet" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="9.5" Y="13.25" />
+        <Point X="9.124" Y="13.25" />
+        <Point X="9.124" Y="13.25" />
+        <Point X="9" Y="13.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABAAAAABAAAAAAAAAAAAFQAAAAAAAAAA=</HashCode>
+      <FileName>EnitiesSets\PaySheetSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EnitiesSets.ProductSet">
+    <Position X="7.5" Y="14.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAgAABAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>EnitiesSets\ProductSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EnitiesSets.ProductsSheetSet">
+    <Position X="5.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABAAAAABAAAAAQAAAAAAFQAAAAAAAAAA=</HashCode>
+      <FileName>EnitiesSets\ProductsSheetSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EnitiesSets.ProductStandartSet">
+    <Position X="1.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAABAAAAABAAAAQAAAAAAABAAAAAAAAAAE=</HashCode>
+      <FileName>EnitiesSets\ProductStandartSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EnitiesSets.SettlementSet">
+    <Position X="3" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAABAAAAAAAAAAAABAAEAAAAAAAA=</HashCode>
+      <FileName>EnitiesSets\SettlementSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.EnitiesSets.SettlementSheetSet">
+    <Position X="3" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgACQAIAAABAAAAABAAAAAAQAAAAAFQAACAAAAAAA=</HashCode>
+      <FileName>EnitiesSets\SettlementSheetSet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.BaseEntity">
+    <Position X="9.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAgA=</HashCode>
+      <FileName>Entities\BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.Department">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAEAAAAAAAAAAAEAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Department.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.Employee">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAABgAQAEAgAAAAAAAAAAAAgYAAAAAAAAIAA=</HashCode>
+      <FileName>Entities\Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.PaySheet">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAABAAAAAAAAAAAAAAYAAAAAQAAAAQ=</HashCode>
+      <FileName>Entities\PaySheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.PaySheetFilter" Collapsed="true">
+    <Position X="13.25" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>Entities\PaySheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.Product">
+    <Position X="1" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAgAAAAAAAAAEAAgYAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Product.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.ProductionStandart">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAIAAAAgAAAAAAAAAAAAgYAMAAAAAAAAA=</HashCode>
+      <FileName>Entities\ProductionStandart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.ProductStandartFilter" Collapsed="true">
+    <Position X="13.25" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAEAAAAAAAAA=</HashCode>
+      <FileName>Entities\ProductionStandart.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.ProductsSheet">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAIAYAEAAAQAAAAA=</HashCode>
+      <FileName>Entities\ProductsSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.ProductSheetFilter" Collapsed="true">
+    <Position X="15" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>Entities\ProductsSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.Settlement">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAIAAIAAgACAAAAAAAEAAgQAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Settlement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.SettlementSheet">
+    <Position X="1" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAgAAAAAAAABAAAAAAAAAAAAAAYAAAAAQAIAAA=</HashCode>
+      <FileName>Entities\SettlementSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.SettlementSheetFilter" Collapsed="true">
+    <Position X="15" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAQAAAAA=</HashCode>
+      <FileName>Entities\SettlementSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Entities.SettlementSheetMonthSum" Collapsed="true">
+    <Position X="16.75" Y="17.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\SettlementSheet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.ListForms.DepartmentListForm">
+    <Position X="29.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAgAgACAAAAAAAASAAAACAAAAIAABECAAkAAAAAA=</HashCode>
+      <FileName>ListForms\DepartmentListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.ListForms.EmployeeListForm">
+    <Position X="31.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAggAgACAAAAAAAASAAAACAAAAIAABECAAkAAAAAA=</HashCode>
+      <FileName>ListForms\EmployeeListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.ListForms.PaySheetsListForm">
+    <Position X="29.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAgQCAAAAAAAASAAAACAAAAIAABECAAkAAAAAA=</HashCode>
+      <FileName>ListForms\PaySheetsListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.ListForms.ProductListForm">
+    <Position X="33.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAgACAAAAAAAASAAAACAAAAIAABECAQkAAAAAA=</HashCode>
+      <FileName>ListForms\ProductListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.ListForms.ProductsSheetListForm">
+    <Position X="28" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAgQCAAAAAAAASAAAACAAAAIAABECAAkAAAAAA=</HashCode>
+      <FileName>ListForms\ProductsSheetListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.ListForms.ProductStandartsListForm">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAgACAAAAAAAASAAAACAAAAIAIBECAAkAAAAAA=</HashCode>
+      <FileName>ListForms\ProductStandartsListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.ListForms.SettlementListForm">
+    <Position X="28" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAgACAAAAAAAASAAAACAAAAIAABECAAkAAABAA=</HashCode>
+      <FileName>ListForms\SettlementListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.ListForms.SettlementSheetListForm">
+    <Position X="33.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAgQCAAAAAAAASAAAACAAAAIAABECAAkAAAAAA=</HashCode>
+      <FileName>ListForms\SettlementSheetListForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Properties.Resources">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.Properties.Settings">
+    <Position X="25.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SalaryCounting.HelpingForm">
+    <Position X="23.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAAAAAAAACAAAACAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>HelpingForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
